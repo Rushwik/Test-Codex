@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas Pinball</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="layout">
+    <section class="hud">
+      <h1>Pinball</h1>
+      <p><strong>Controls:</strong> Left/Right Arrow to flip, Space to launch</p>
+      <p>Score: <span id="score">0</span></p>
+      <p>Balls Left: <span id="balls-left">3</span></p>
+      <button id="restart-btn" type="button">Restart Game</button>
+    </section>
+    <canvas id="game" width="480" height="720" aria-label="Pinball game board"></canvas>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
